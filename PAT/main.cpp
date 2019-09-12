@@ -9,7 +9,12 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    double a=0.1;
+    int b=0;
+    if(a==b){
+        printf("0.0==0");
+    } else {
+        printf("不相等");
+    }
     return 0;
 }
