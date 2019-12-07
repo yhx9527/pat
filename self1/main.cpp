@@ -1,4 +1,11 @@
-//control+i格式化代码
+//
+//  main.cpp
+//  self1
+//
+//  Created by 雨含香 on 2019/12/7.
+//  Copyright © 2019 雨含香. All rights reserved.
+// 层次遍历+中序遍历-->打印前序遍历
+
 
 #include <iostream>
 #include <vector>
@@ -50,3 +57,4 @@ int main() {
     layer.pop();
     preorder(root, 0, n-1);
 }
+
